@@ -1,0 +1,10 @@
+[
+  {"id":"G-01","question":"Why do agent tool calls fail with 403 missing documents.read OAuth scope?","expected_document":"DOC-OAUTH"},
+  {"id":"G-02","question":"What does 429 RESOURCE_EXHAUSTED mean and how should we backoff?","expected_document":"DOC-QUOTA"},
+  {"id":"G-03","question":"How can I diagnose missing RAG grounding citations and retrieval context?","expected_document":"DOC-GROUND"},
+  {"id":"G-04","question":"What should be collected for failing tool call tracing correlation IDs?","expected_document":"DOC-TOOLS"},
+  {"id":"G-05","question":"Which Kubernetes readiness probe issues cause deployment timeouts?","expected_document":"DOC-DEPLOY"},
+  {"id":"G-06","question":"How do we escalate with minimal reproduction and severity assessment?","expected_document":"DOC-SUPPORT","role":"support"},
+  {"id":"G-07","question":"How do quantum frog telepathy crystals work?","expected_document":null},
+  {"id":"G-08","question":"What does support only escalation runbook require?","expected_document":null,"role":"public"}
+]
